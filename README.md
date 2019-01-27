@@ -1,0 +1,2 @@
+# SpigotPluginTemplate
+SpigotPluginのmavenプロジェクトテンプレートです。
