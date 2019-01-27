@@ -5,3 +5,4 @@
 doc/*
 *.sql
 *.db
+dependency-reduced-pom.xml
