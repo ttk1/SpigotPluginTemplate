@@ -57,7 +57,7 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.13-R0.1-SNAPSHOT</version>
+      <version>1.13.2-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
       <exclusions>
         <exclusion>
@@ -84,16 +84,16 @@
     </dependency>
   </dependencies>
   <properties>
-    <java.version>1.8</java.version>
-    <plguin.author>ttk1</plguin.author>
-    <plugin.main>net.ttk1.spigotplugintemplate.SpigotPluginTemplate</plugin.main>
-    <plugin.database>false</plugin.database>
-    <plugin.description>SpigotPluginTemplate!!</plugin.description>
     <maven.compiler.target>${java.version}</maven.compiler.target>
+    <java.version>11</java.version>
+    <plugin.description>SpigotPluginTemplate!!</plugin.description>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <plugin.website>http://ttk1.net</plugin.website>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <plugin.name>${artifactId}</plugin.name>
+    <plugin.main>net.ttk1.spigotplugintemplate.SpigotPluginTemplate</plugin.main>
+    <plguin.author>ttk1</plguin.author>
+    <plugin.database>false</plugin.database>
+    <plugin.name>${project.artifactId}</plugin.name>
   </properties>
 </project>
 
