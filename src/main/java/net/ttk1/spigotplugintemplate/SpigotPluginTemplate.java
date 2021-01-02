@@ -13,7 +13,7 @@ public class SpigotPluginTemplate extends JavaPlugin {
         logger = getLogger();
         logger.info("Hello!");
 
-        saveConfig();
+        saveDefaultConfig();
         Configuration config = getConfig();
         logger.info(config.getString("test"));
     }
