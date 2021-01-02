@@ -4,4 +4,4 @@ main: ${plugin.main}
 description: ${plugin.description}
 author: ${plguin.author}
 website: ${plugin.website}
-database: ${plugin.database}
+api-version: ${plguin.api-version}
