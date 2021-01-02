@@ -20,8 +20,8 @@
         <plugin.name>${project.artifactId}</plugin.name>
         <plugin.description>SpigotPluginTemplate!!</plugin.description>
         <plugin.website>http://ttk1.net</plugin.website>
-        <plguin.author>ttk1</plguin.author>
-        <plguin.api-version>1.16</plguin.api-version>
+        <plugin.author>ttk1</plugin.author>
+        <plugin.api-version>1.16</plugin.api-version>
     </properties>
 
     <repositories>

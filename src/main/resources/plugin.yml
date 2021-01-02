@@ -2,6 +2,6 @@ version: ${version}
 name: ${plugin.name}
 main: ${plugin.main}
 description: ${plugin.description}
-author: ${plguin.author}
+author: ${plugin.author}
 website: ${plugin.website}
-api-version: ${plguin.api-version}
+api-version: ${plugin.api-version}
