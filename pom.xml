@@ -8,18 +8,16 @@
     <artifactId>SpigotPluginTemplate</artifactId>
     <version>0.0.0-SNAPSHOT</version>
 
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>13</java.version>
+        <java.version>1.8</java.version>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.source>${java.version}</maven.compiler.source>
-
         <!--SpigotPlugin properties-->
         <plugin.main>net.ttk1.spigotplugintemplate.SpigotPluginTemplate</plugin.main>
         <plugin.name>${project.artifactId}</plugin.name>
         <plugin.description>SpigotPluginTemplate!!</plugin.description>
-        <plugin.website>http://ttk1.net</plugin.website>
+        <plugin.website>https://ttk1.net</plugin.website>
         <plugin.author>ttk1</plugin.author>
         <plugin.api-version>1.16</plugin.api-version>
     </properties>
@@ -31,11 +29,10 @@
         </repository>
     </repositories>
     <dependencies>
-        <!--Spigot API-->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -56,6 +53,10 @@
                                 <filter>
                                     <artifact>*:*</artifact>
                                     <excludes>
+                                        <exclude>module-info.class</exclude>
+                                        <exclude>META-INF/MANIFEST.MF</exclude>
+                                        <exclude>META-INF/LICENSE</exclude>
+                                        <exclude>META-INF/NOTICE</exclude>
                                         <exclude>META-INF/*.SF</exclude>
                                         <exclude>META-INF/*.DSA</exclude>
                                         <exclude>META-INF/*.RSA</exclude>
