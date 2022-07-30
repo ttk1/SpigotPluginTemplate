@@ -1,4 +1,4 @@
-version: ${version}
+version: ${plugin.version}
 name: ${plugin.name}
 main: ${plugin.main}
 description: ${plugin.description}
